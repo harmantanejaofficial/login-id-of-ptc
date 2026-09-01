@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Tuition Classes | Build Academic Excellence</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">P.T.C. <span>Classes</span></div>
+        <nav>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Courses</a></li>
+                <li><a href="#why-us">Why Us</a></li>
+                <li><a href="#offer">Offers</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#" id="loginBtn" class="login-nav-btn">Student Login</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <span class="badge">Academic Excellence</span>
+            <h1>Give Your Child the Ultimate Academic Advantage!</h1>
+            <p>At <strong>Professional Tuition Classes</strong>, we transform classroom stress into top academic scores through concept clarity and disciplined guidance.</p>
+            <div class="hero-btns">
+                <a href="#products" class="btn btn-primary">Explore Courses</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section: 5th to 10th & Online/Offline -->
+    <section id="products" class="products-section">
+        <h2 class="section-title">Our Programs</h2>
+        <p class="section-subtitle">Tailored learning for grades 5th to 10th in flexible modes</p>
+
+        <div class="cards-grid">
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-graduation-cap"></i></div>
+                <h3>5th to 7th Grade (Foundation)</h3>
+                <p>Building strong fundamentals in Mathematics, Science, and English during crucial formative years.</p>
+                <div class="mode-tags">
+                    <span class="tag">Online</span> <span class="tag">Offline</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-award"></i></div>
+                <h3>8th to 10th Grade (Board Prep)</h3>
+                <p>Advanced concept training, rigorous board exam preparation, and continuous progress assessments.</p>
+                <div class="mode-tags">
+                    <span class="tag">Online</span> <span class="tag">Offline</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-laptop-house"></i></div>
+                <h3>Online Interactive Batches</h3>
+                <p>Live, two-way interactive classes from the comfort of your home with digital notes and recorded sessions.</p>
+                <div class="mode-tags">
+                    <span class="tag highlight">Live Online</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-school"></i></div>
+                <h3>Offline Classroom Coaching</h3>
+                <p>Traditional face-to-face learning in our disciplined, distraction-free Naigaon center.</p>
+                <div class="mode-tags">
+                    <span class="tag highlight">In-Center</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="offer" class="offer-banner">
+        <div class="offer-container">
+            <div class="offer-tag"><i class="fas fa-gift"></i> Limited Time Offer</div>
+            <h2>Special Admissions Discount!</h2>
+            <p>Enroll today and get a <strong>flat 10% off</strong> on your first month's tuition fees!</p>
+        </div>
+    </section>
+
+    <section id="why-us" class="pillars-section">
+        <h2 class="section-title">What Makes Us Different?</h2>
+        <p class="section-subtitle">Our core pillars of quality education</p>
+
+        <div class="cards-grid">
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-users"></i></div>
+                <h3>Focused Group Batches</h3>
+                <p>Small batch sizes ensuring zero overcrowding, healthy competition, and personal attention for every student.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-brain"></i></div>
+                <h3>Concept-First Teaching</h3>
+                <p>We eliminate rote memorization. Our simple explanations help students genuinely understand and love studying.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+                <h3>Mock Tests & Tracking</h3>
+                <p>Weekly tests and performance tracking ensure your child is always exam-ready and confident.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                <h3>Expert Educator Team</h3>
+                <p>Learn from energetic, highly qualified tutors who stay updated with modern school curriculums.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feedback Section -->
+    <section id="feedback" class="feedback-section">
+        <h2 class="section-title">Student & Parent Feedback</h2>
+        <p class="section-subtitle">We would love to hear about your experience with us!</p>
+        
+        <div class="feedback-form-container">
+            <form id="feedbackForm">
+                <div class="form-group">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <select name="Role" required>
+                        <option value="" disabled selected>Select Your Role</option>
+                        <option value="Student (5th-10th)">Student (5th-10th Grade)</option>
+                        <option value="Parent">Parent</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea name="Feedback" rows="4" placeholder="Write your feedback or review here..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Feedback</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">Connect with our administrative office directly</p>
+
+        <div class="contact-container">
+            <div class="contact-card">
+                <i class="fab fa-whatsapp contact-icon"></i>
+                <h3>Call / WhatsApp</h3>
+                <p>Have questions? Chat with us directly.</p>
+                <a href="https://wa.me/919987566019" target="_blank" class="contact-link">+91 9987566019</a>
+            </div>
+
+            <div class="contact-card" style="text-align: left;">
+                <i class="fas fa-map-marker-alt contact-icon" style="color: var(--accent-color); background: #FEF2F2;"></i>
+                <h3>Our Address</h3>
+                <p>6-C, 1003, Nakshatra Greens, Tivri Road, Naigaon (East), Palghar - 401208.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Student Login Modal -->
+    <div id="loginModal" class="modal-overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(15, 23, 42, 0.7); backdrop-filter: blur(4px); align-items: center; justify-content: center; z-index: 1000;">
+        <div class="modal-content" style="background: white; padding: 30px; border-radius: 16px; width: 90%; max-width: 400px; position: relative; text-align: center;">
+            <button id="closeLogin" class="close-modal" style="position: absolute; top: 12px; right: 18px; background: none; border: none; font-size: 22px; cursor: pointer; color: #64748B;">&times;</button>
+            <h2 style="margin-bottom: 10px; color: #0F172A;">Student Portal Login</h2>
+            <p style="color: #64748B; font-size: 0.9rem; margin-bottom: 20px;">Enter your Student ID and password to access your dashboard.</p>
+            
+            <form id="loginForm">
+                <div class="form-group" style="margin-bottom: 15px; text-align: left;">
+                    <input type="text" id="studentId" placeholder="Enter Student ID (e.g., PTC101)" required style="width: 100%; padding: 10px 14px; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.95ln;">
+                </div>
+                <div class="form-group" style="margin-bottom: 15px; text-align: left;">
+                    <input type="password" id="studentPassword" placeholder="Enter Password" required style="width: 100%; padding: 10px 14px; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.95rem;">
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%; background: #DC2626; color: white; border: none; padding: 10px; border-radius: 8px; font-weight: 600; cursor: pointer;">Login</button>
+            </form>
+            <div id="loginMessage" style="margin-top: 15px; font-size: 0.9rem; font-weight: 600;"></div>
+        </div>
+    </div>
+
+    <!-- Floating Chatbot Widget -->
+    <div id="chatbot-container" class="chatbot-container">
+        <div id="chat-window" class="chat-window" style="display: none;">
+            <div class="chat-header">
+                <h4>PTC Support Bot</h4>
+                <button id="close-chat">&times;</button>
+            </div>
+            <div class="chat-body" id="chat-body">
+                <div class="bot-msg">Hello! Welcome to Professional Tuition Classes. Are you looking for Online or Offline classes for grades 5th to 10th?</div>
+            </div>
+            <div class="chat-footer">
+                <input type="text" id="chat-input" placeholder="Type a message...">
+                <button id="send-chat"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+        <button id="chat-toggle-btn" class="chat-toggle-btn">
+            <i class="fas fa-comment-dots"></i>
+        </button>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Professional Tuition Classes. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Embedded Master Script with Student Database & Dynamic Dashboard Generator -->
+    <script>
+        // --- CENTRAL STUDENT DATABASE DIRECTLY IN MAIN FILE ---
+        // Add or edit student records here. Anyone worldwide can log in with these credentials.
+        const studentsDatabase = [
+            { id: "PTC101", pass: "student123", name: "Aarav Sharma", fees: "1500", grade: "10th Grade" },
+            { id: "PTC102", pass: "mypass456", name: "Priya Verma", fees: "2000", grade: "9th Grade" },
+            { id: "PTC103", pass: "secure789", name: "Rahul Gupta", fees: "1800", grade: "8th Grade" }
+        ];
+
+        // --- Modal Toggle Logic ---
+        const loginBtn = document.getElementById('loginBtn');
+        const loginModal = document.getElementById('loginModal');
+        const closeLogin = document.getElementById('closeLogin');
+
+        if (loginBtn && loginModal) {
+            loginBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                loginModal.style.display = 'flex';
+            });
+        }
+        if (closeLogin && loginModal) {
+            closeLogin.addEventListener('click', () => {
+                loginModal.style.display = 'none';
+            });
+        }
+        window.addEventListener('click', (e) => {
+            if (e.target === loginModal) {
+                loginModal.style.display = 'none';
+            }
+        });
+
+        // --- Login & Dynamic Dashboard Generator Logic ---
+        const loginForm = document.getElementById('loginForm');
+        const loginMessage = document.getElementById('loginMessage');
+
+        if (loginForm) {
+            loginForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const idInput = document.getElementById('studentId').value.trim();
+                const passInput = document.getElementById('studentPassword').value.trim();
+
+                const student = studentsDatabase.find(s => s.id === idInput && s.pass === passInput);
+
+                if (student) {
+                    loginMessage.style.color = '#10B981';
+                    loginMessage.textContent = 'Login Successful! Opening dashboard...';
+
+                    setTimeout(() => {
+                        loginModal.style.display = 'none';
+                        loginForm.reset();
+                        loginMessage.textContent = '';
+                        
+                        // Automatically generate and load the dashboard on the page
+                        renderDashboard(student);
+                    }, 600);
+                } else {
+                    loginMessage.style.color = '#DC2626';
+                    loginMessage.textContent = 'Invalid Student ID or Password.';
+                }
+            });
+        }
+
+        // Function that dynamically builds the student dashboard view
+        function renderDashboard(student) {
+            // Target hero or main container to replace with dashboard view
+            const homeSection = document.getElementById('home');
+            if (homeSection) {
+                homeSection.innerHTML = `
+                    <div class="hero-content" style="max-width: 700px; margin: 0 auto; background: white; padding: 40px; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border: 1px solid #E2E8F0; text-align: left; color: #1E293B;">
+                        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #F1F5F9; padding-bottom: 15px; margin-bottom: 25px;">
+                            <div>
+                                <h2 style="color: #0F172A; font-size: 1.8rem; margin-bottom: 2px;">Student Dashboard</h2>
+                                <p style="color: #64748B; font-size: 0.95rem;">Welcome back, <strong>${student.name}</strong>!</p>
+                            </div>
+                            <button onclick="location.reload()" style="background: #64748B; color: white; border: none; padding: 8px 16px; border-radius: 6px; cursor: pointer; font-weight: 600; font-size: 0.85rem;">Logout</button>
+                        </div>
+
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 25px;">
+                            <div style="background: #FEF2F2; padding: 18px; border-radius: 10px; border: 1px solid #FCA5A5;">
+                                <span style="font-size: 0.75rem; font-weight: 700; color: #7F1D1D; display: block; margin-bottom: 4px;">STUDENT ID</span>
+                                <p style="font-size: 1.2rem; font-weight: 700; color: #DC2626;">${student.id}</p>
+                            </div>
+                            <div style="background: #F0FDF4; padding: 18px; border-radius: 10px; border: 1px solid #86EFAC;">
+                                <span style="font-size: 0.75rem; font-weight: 700; color: #166534; display: block; margin-bottom: 4px;">TUITION FEES</span>
+                                <p style="font-size: 1.2rem; font-weight: 700; color: #16A34A;">₹${student.fees}</p>
+                            </div>
+                            <div style="background: #EFF6FF; padding: 18px; border-radius: 10px; border: 1px solid #BFDBFE;">
+                                <span style="font-size: 0.75rem; font-weight: 700; color: #1E40AF; display: block; margin-bottom: 4px;">GRADE LEVEL</span>
+                                <p style="font-size: 1.2rem; font-weight: 700; color: #2563EB;">${student.grade}</p>
+                            </div>
+                        </div>
+
+                        <h3 style="font-size: 1.1rem; color: #0F172A; margin-bottom: 10px;">Portal Notice Board</h3>
+                        <p style="color: #64748B; font-size: 0.95rem; line-height: 1.6;">Your student account is active. Check with your instructors for ongoing batch timings, chapter tests, and learning materials.</p>
+                    </div>
+                `;
+                homeSection.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
+    
+    <!-- Link your external custom script if you have one for other features -->
+    <script src="script.js"></script>
+</body>
+</html>
