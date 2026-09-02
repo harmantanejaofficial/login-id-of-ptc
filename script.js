@@ -17,8 +17,13 @@ document.addEventListener('DOMContentLoaded', () => {
     if (loginForm) {
         loginForm.addEventListener('submit', (e) => {
             e.preventDefault();
-            const idInput = document.getElementById('studentId').value.trim();
+            let idInput = document.getElementById('studentId').value.trim();
             const passInput = document.getElementById('studentPassword').value.trim();
+
+            // Automatically format single-digit inputs (e.g., entering "1" checks as "01")
+            if (idInput.length === 1) {
+                idInput = "0" + idInput;
+            }
 
             const student = studentsDatabase[idInput];
 
@@ -36,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 loginForm.reset();
                 loginMessage.textContent = '';
             } else {
-                loginMessage.style.color = 'var(--accent-color)';
+                loginMessage.style.color = 'red';
                 loginMessage.textContent = 'Invalid Student ID or Password. Please try again.';
             }
         });
