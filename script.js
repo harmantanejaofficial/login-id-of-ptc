@@ -1,8 +1,11 @@
 // Master database containing student ID, passwords, and details
 const studentsDatabase = {
-    "PTC101": { password: "student123", name: "Rahul Sharma", class: "10th Grade", fees: "25,000", pending: "5,000", attendance: "92%", percentage: "88%" },
-    "PTC102": { password: "password456", name: "Priya Singh", class: "9th Grade", fees: "22,000", pending: "0", attendance: "95%", percentage: "91%" },
-    "PTC103": { password: "mypassword789", name: "Amit Patel", class: "8th Grade", fees: "20,000", pending: "3,000", attendance: "85%", percentage: "79%" }
+    "01": { password: "tiya10june", name: "TIYA RAHEJA", class: "6th Grade", fees: "700", pending: "200", attendance: "80%", percentage: "?%" },
+    "02": { password: "rudra6june", name: "RUDRA", class: "6th Grade", fees: "500", pending: "0", attendance: "90%", percentage: "10%" },
+    "03": { password: "saksham31july", name: "SAKSHAM", class: "6th Grade", fees: "700", pending: "700", attendance: "80%", percentage: "?%" }
+    "04": { password: "tanmay3august", name: "TANMAY", class: "7th Grade", fees: "850", pending: "850", attendance: "80%", percentage: "?%" },
+    "05": { password: "aadharh6august", name: "AADHARSH", class: "7th Grade", fees: "800", pending: "0", attendance: "90%", percentage: "?%" },
+   "06": { password: "ansh6august", name: "ANSH", class: "3th Grade", fees: "500", pending: "0", attendance: "80%", percentage: "?%" }
 };
 
 document.addEventListener('DOMContentLoaded', () => {
