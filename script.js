@@ -1,11 +1,10 @@
-// Master database containing student ID, passwords, and details
 const studentsDatabase = {
-    "01": { password: "tiya10june", name: "TIYA RAHEJA", class: "6th Grade", fees: "700", pending: "200", attendance: "80%", percentage: "%" },
+    "01": { password: "tiya10june", name: "TIYA RAHEJA", class: "6th Grade", fees: "700", pending: "200", attendance: "80%", percentage: "0%" },
     "02": { password: "rudra6june", name: "RUDRA", class: "6th Grade", fees: "500", pending: "0", attendance: "90%", percentage: "10%" },
-    "03": { password: "saksham31july", name: "SAKSHAM", class: "6th Grade", fees: "700", pending: "700", attendance: "80%", percentage: "%" }
-    "04": { password: "tanmay3august", name: "TANMAY", class: "7th Grade", fees: "850", pending: "850", attendance: "80%", percentage: "%" },
-    "05": { password: "aadharh6august", name: "AADHARSH", class: "7th Grade", fees: "800", pending: "0", attendance: "90%", percentage: "%" },
-   "06": { password: "ansh6august", name: "ANSH", class: "3th Grade", fees: "500", pending: "0", attendance: "80%", percentage: "%" }
+    "03": { password: "saksham31july", name: "SAKSHAM", class: "6th Grade", fees: "700", pending: "700", attendance: "80%", percentage: "0%" },
+    "04": { password: "tanmay3august", name: "TANMAY", class: "7th Grade", fees: "850", pending: "850", attendance: "80%", percentage: "0%" },
+    "05": { password: "aadharh6august", name: "AADHARSH", class: "7th Grade", fees: "800", pending: "0", attendance: "90%", percentage: "0%" },
+    "06": { password: "ansh6august", name: "ANSH", class: "3rd Grade", fees: "500", pending: "0", attendance: "80%", percentage: "0%" }
 };
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -15,7 +14,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const loginMessage = document.getElementById('loginMessage');
     const logoutBtn = document.getElementById('logoutBtn');
 
-    // Handle Login Form Submission
     if (loginForm) {
         loginForm.addEventListener('submit', (e) => {
             e.preventDefault();
@@ -25,7 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const student = studentsDatabase[idInput];
 
             if (student && student.password === passInput) {
-                // Populate Dashboard Fields
                 document.getElementById('displayName').textContent = student.name;
                 document.getElementById('displayId').textContent = idInput;
                 document.getElementById('displayClass').textContent = student.class;
@@ -34,7 +31,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.getElementById('displayAttendance').textContent = student.attendance;
                 document.getElementById('displayPercentage').textContent = student.percentage;
 
-                // Switch Views
                 loginSection.style.display = 'none';
                 dashboardSection.style.display = 'block';
                 loginForm.reset();
@@ -46,7 +42,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Handle Logout
     if (logoutBtn) {
         logoutBtn.addEventListener('click', () => {
             dashboardSection.style.display = 'none';
