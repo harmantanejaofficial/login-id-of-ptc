@@ -1,7 +1,7 @@
 const studentsDatabase = {
-    "01": { password: "tiya10june", name: "TIYA RAHEJA", class: "6th Grade", fees: "700", pending: "900", attendance: "80%", percentage: "0%" },
+    "01": { password: "tiya10june", name: "TIYA RAHEJA", class: "6th Grade", fees: "700", pending: "900", attendance: "60%", percentage: "73.84%" },
     "02": { password: "rudra6june", name: "RUDRA", class: "6th Grade", fees: "500", pending: "0", attendance: "90%", percentage: "0%" },
-    "03": { password: "saksham31july", name: "SAKSHAM", class: "6th Grade", fees: "700", pending: "0", attendance: "80%", percentage: "0%" },
+    "03": { password: "saksham31july", name: "SAKSHAM", class: "6th Grade", fees: "700", pending: "0", attendance: "80%", percentage: "70.76%" },
     "04": { password: "tanmay3august", name: "TANMAY", class: "7th Grade", fees: "850", pending: "0", attendance: "80%", percentage: "0%" },
     "05": { password: "aadharh6august", name: "AADHARSH", class: "7th Grade", fees: "800", pending: "0", attendance: "90%", percentage: "0%" },
     "06": { password: "lakshaya1june", name: "LAKSHAYA", class: "4th Grade", fees: "500", pending: "0", attendance: "90%", percentage: "0%" },
